@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/screens/Autenticacion.dart';
+import 'package:apptransaccional/screens/Autenticacion.dart';
 class PaginaInicio extends StatelessWidget {
   const PaginaInicio({super.key});
 
