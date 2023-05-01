@@ -1,8 +1,8 @@
 import 'package:apptransaccional/screens/Transferencia.dart';
 import 'package:flutter/material.dart';
 import 'package:apptransaccional/screens/Autenticacion.dart';
-class Retirar extends StatelessWidget {
-  const Retirar({super.key});
+class Recargas extends StatelessWidget {
+  const Recargas({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,19 +11,19 @@ class Retirar extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Center(
-                child: Text(
+              child: Text(
                   "Smile's Bank",
                   style: TextStyle(
                   fontSize: 35,
                   fontWeight: FontWeight.bold,
                   color: Colors.white               
                   ),
-               ),
+              ),
             ),
             const SizedBox(height: 10),
             const Center(
               child: Text(
-                'Retiros',
+                'Recargas',
                 style: TextStyle(
                 fontSize: 25,
                 color: Colors.white,
@@ -36,7 +36,7 @@ class Retirar extends StatelessWidget {
               width: 400,
               child: TextFormField(
                 decoration: const InputDecoration(
-                  labelText: 'Sonrisas a Retirar',
+                  labelText: 'Sonrisas a Recargar',
                   labelStyle: TextStyle(
                     color: Colors.white,
                   ),
@@ -85,7 +85,7 @@ class Retirar extends StatelessWidget {
                       backgroundColor: Color.fromARGB(255, 166, 132, 245),
                       alignment: Alignment.center,
                         child: const Text(
-                          'Retiro exitoso',
+                          'Recarga exitosa',
                           style: TextStyle(
                           overflow: TextOverflow.clip,
                           fontSize: 25,
@@ -102,7 +102,7 @@ class Retirar extends StatelessWidget {
                   width: 1.5,
                   color: Color.fromARGB(255, 255, 255, 255),)),
                 child: const Text(
-                  'Retirar',
+                  'Recargar',
                   style: TextStyle(fontSize: 25),
                 ),
               ),

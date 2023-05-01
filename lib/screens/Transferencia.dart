@@ -11,19 +11,19 @@ class Transferencia extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Center(
-              child: Text(
-                'Transferencia',
-                style: TextStyle(
-                  fontSize: 60,
+                child: Text(
+                  "Smile's Bank",
+                  style: TextStyle(
+                  fontSize: 35,
                   fontWeight: FontWeight.bold,
-                  color: Color.fromARGB(255, 255, 255, 255),
+                  color: Colors.white               
+                  ),
                 ),
-              ),
               ),
             const SizedBox(height: 10),
             const Center(
               child: Text(
-                'Usuario Destino',
+                'Transferencia',
                 style: TextStyle(
                 fontSize: 25,
                 color: Colors.white,
@@ -48,15 +48,6 @@ class Transferencia extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 10),
-             const Center(
-              child: Text(
-                'Cantidad a transferir',
-                style: TextStyle(
-                fontSize: 25,
-                color: Colors.white,
-                ),
-              ),
-            ),
             Container(height: 10),
             SizedBox(
               width: 400,
