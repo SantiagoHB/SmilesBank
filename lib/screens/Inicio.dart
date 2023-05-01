@@ -1,3 +1,4 @@
+import 'package:apptransaccional/screens/Transferencia.dart';
 import 'package:flutter/material.dart';
 import 'package:apptransaccional/screens/Autenticacion.dart';
 class PaginaInicio extends StatelessWidget {
@@ -70,7 +71,7 @@ class PaginaInicio extends StatelessWidget {
                   Navigator.pop(context); //ir
                   Navigator.push( //volver
                     context, 
-                    MaterialPageRoute(builder: (_) => const Autenticacion())
+                    MaterialPageRoute(builder: (_) => const Transferencia())
                   );
                 },
                 style: ElevatedButton.styleFrom(backgroundColor: const Color.fromARGB(255, 166, 132, 245),
